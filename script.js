@@ -23,11 +23,7 @@ function countdown(){
     secondsEl.innerHTML = formatTime(seconds);
 }
 function formatTime(time){
-    return time < 10 ? `0${tome}` : time;
-}
-
-function openPopup() {
-    window.open('popup.html', 'popupWindow', 'width=400,height=400,scrollbars=no,resizable=no');
+    return time < 10 ? `0${time}` : time;
 }
 
 countdown();
