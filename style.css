@@ -14,8 +14,8 @@ body {
 }
 h1{
     font-weight: normal;
-    font-size: 4rem;
-    margin-top: 15rem;
+    font-size: 5rem;
+    margin-top: 7rem;
 }
 .countdown-container{
     display: flex;
@@ -33,4 +33,8 @@ h1{
 }
 .countdown-el span{
     font-size: 1.5rem;
+}
+.img{
+    display: flex;
+    align-items: center;
 }
