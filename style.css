@@ -15,7 +15,8 @@ body {
 h1{
     font-weight: bold;
     font-size: 5rem;
-    margin-top: 3rem;
+    margin-bottom: -1rem;
+    margin-top: 7.5rem;
 }
 .countdown-container{
     display: flex;
